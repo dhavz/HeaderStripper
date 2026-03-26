@@ -46,10 +46,3 @@ dist/header-stripper-burp-extension.jar
 5. Select `dist/header-stripper-burp-extension.jar`.
 
 Burp should load `io.github.burpextensions.headerstripper.HeaderStripperBurpExtender`.
-
-## Next Features Worth Adding
-
-- Tool scoping so stripping can be limited to only Proxy, only Repeater, or both.
-- Preset save/load for different test scenarios.
-- Separate exact-match and regex stripping modes.
-- Highlight headers that were actually stripped on the last message.
